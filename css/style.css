@@ -1,0 +1,369 @@
+html, body {
+    height: 100%;
+}
+
+.menu {
+    position: relative;
+    width: 1903px;
+    height: 104px;
+    left: -8px;
+    top: 7px;
+    background-color: white;
+}
+
+.logo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-left: 100px;
+}
+
+.header__nav {
+    position: absolute;
+    width: 720px;
+    height: 15px;
+    left: 500px;
+    top: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}   
+
+.header__link {
+    color: black;
+    text-decoration: none;
+}
+
+.kontaktnyy__telefon {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1380px;
+    top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.telefon {
+    position: absolute;
+    width: 200px;
+    height: 43px;
+    left: 1365px;
+    top: 43px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: black;
+}
+  
+main {
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 120px;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+
+
+.kontaktnyy__telefon {
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 1100px;
+    top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.telefon {
+    position: absolute;
+    width: 200px;
+    height: 43px;
+    left: 1100px;
+    top: 43px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: black;
+}
+
+
+section.kvesty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    color: #020202;
+    font-family: 'Montserrat';
+    padding-top: 50px;
+}
+.tekst6 {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+.tekst7 {
+    color: #212122;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.spisok__kvestov, .spisok__kvestov2 {
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+}
+.kvest img, .kvest1 img {
+    width: 350px;
+    height: 350px;
+    filter: brightness(60%);
+}
+.kvest, .kvest1 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+}
+.quest__age1, .quest__name1, .quest__age2, .quest__name2, .quest__age3, .quest__name3, .quest__age4, .quest__name4, .quest__age5, .quest__name5, .quest__age6, .quest__name6 {
+    position: absolute;
+}
+.quest__name1, .quest__name2, .quest__name3, .quest__name4, .quest__name5, .quest__name6 {
+    margin-top: 300px;
+    align-self: center;
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+.quest__age1, .quest__age2, .quest__age3, .quest__age4, .quest__age5, .quest__age6 {
+    margin-left: 20px;
+    color: #7046b2;
+    margin-top: 20px;
+}
+.spisok__kvestov {
+    margin-bottom: 30px;
+}
+.fakty__o__kompanii {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    color: #070707;
+    margin-top: 150px;
+}
+.icons__kompanii {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.belyy__kruzhok {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.kolichestvo__yslyg2, .kolichestvo__posititeley2, .vremya__raboti2, .nadezhnost2 {
+    color: #606063;
+    font-size: 16px;
+}
+.fakty {
+    font-size: 36px;
+}
+.footer {
+    background-color: #202020;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer li {
+    list-style-type: none;
+}
+.icons__footer {
+    display: flex;
+    gap: 20px;
+}
+.icons__footer svg {
+    cursor: pointer;
+}
+.footer {
+    padding-top: 100px;
+}
+
+.slider {
+    position: relative;
+    width: 1903px;
+    height: 800px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.slider .swiper {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    position: relative;
+    width: 1907px;
+    height: 800px;
+    object-fit: cover;
+    vertical-align: middle;
+    filter: brightness(60%);
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: white;
+    
+}
+
+.swiper .swiper-button-prev {
+    margin-left: 60px;
+}
+
+.swiper .swiper-button-next {
+    margin-right: 60px;
+}
+
+.swiper .swiper-wrapper .tekst1 {
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 400px;
+    top: 180px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 70px;
+    color: #fff;
+}
+
+.swiper .swiper-wrapper .tekst2 {
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 402px;
+    top: 350px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.swiper .swiper-wrapper .tekst4 {
+    position: absolute;
+    width: 900px;
+    height: 40px;
+    left: 400px;
+    top: 220px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 70px;
+    color: #fff;
+}
+
+.swiper .swiper-wrapper .tekst5 {
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 402px;
+    top: 410px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.swiper .swiper-wrapper .pomoshch__v__vybore {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    background: white;
+    left: 1100px;
+    top: 248px;
+    border-radius: 15px;
+}
+
+.swiper .swiper-wrapper .tekst3 {
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 40px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+}
+
+.swiper .swiper-wrapper form {
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.swiper .swiper-wrapper input:focus {
+    outline: none;
+}
+
+.swiper .swiper-wrapper form .email {
+    width: 345px;
+    height: 50px;
+    margin-top: -15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 20px;
+    color: black;
+}
+
+.swiper .swiper-wrapper form .button__submit {
+    width: 370px;
+    height: 55px;
+    margin-top: 15px;
+    border: none;
+    background-color: #7723ec;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
